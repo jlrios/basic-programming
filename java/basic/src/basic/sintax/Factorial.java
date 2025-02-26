@@ -1,15 +1,16 @@
 package basic.sintax;
+
 import java.util.Scanner;
 
 public class Factorial {
     public static void main(String[] args) {
         int number, aux, factorial;
-        Scanner numbers  = new Scanner(System.in);
+        Scanner numberScan  = new Scanner(System.in);
 
         System.out.println("Find factorial.");
 
         System.out.print("Enter number: ");
-        number = numbers.nextInt();
+        number = numberScan.nextInt();
 
         aux = number;
         factorial = aux;
@@ -20,6 +21,6 @@ public class Factorial {
         }
 
         System.out.println(number + "! = " + factorial);
-        numbers.close();
+        numberScan.close();
     }
 }

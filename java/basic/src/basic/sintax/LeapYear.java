@@ -6,12 +6,12 @@ public class LeapYear {
     public static void main(String[] args) {
         int leap;
         boolean isLeap;
-        Scanner year = new Scanner(System.in);
+        Scanner yearScan = new Scanner(System.in);
 
         System.out.println("Determine if a year is a leap year.");
 
         System.out.print("Enter year: ");
-        leap = year.nextInt();
+        leap = yearScan.nextInt();
 
         if (leap % 4 == 0 && leap % 100 != 0)
             isLeap = true;
@@ -23,6 +23,6 @@ public class LeapYear {
         else
             System.out.println("The year " + leap + " is not a leap year");
 
-        year.close();
+        yearScan.close();
     }
 }

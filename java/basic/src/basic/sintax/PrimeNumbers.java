@@ -10,9 +10,12 @@ public class PrimeNumbers {
             for (int p = 1; p <= n; p+=2) {
                 if (n % p == 0) prime++;
             }
-            if (n == 5) System.out.println("2 is a prime number");
-            if (prime == 2 ) System.out.println(n + " is a prime number");
+            if (n == 5) System.out.print("2 ");
+            if (prime == 2 ) System.out.print(n + " ");
+            
             prime = 0;
         }
+
+        System.out.println();
     }
 }

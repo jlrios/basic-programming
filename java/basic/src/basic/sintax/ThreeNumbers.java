@@ -8,10 +8,13 @@ public class ThreeNumbers {
         int n1, n2, n3, larNum;
 
         System.out.println("Find the largest number among the 3.");
+
         System.out.print("Enter first number: ");
         n1 = numbers.nextInt();
+
         System.out.print("Enter second number: ");
         n2 = numbers.nextInt();
+        
         System.out.print("Enter third number: ");
         n3 = numbers.nextInt();
 
